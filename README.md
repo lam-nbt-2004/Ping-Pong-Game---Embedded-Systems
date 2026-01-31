@@ -1,2 +1,97 @@
-# Ping-Pong-Game---Embedded-Systems
-Final project for course IT4210E - Embedded Systems, term 2025.1
+# 🎮 Ping Pong Game on STM32 (TouchGFX)
+
+## 📌 Project Overview
+This project is a **Ping Pong (Pong) game** implemented on an **STM32F429ZI Discovery board** using **STM32CubeIDE** and **TouchGFX**.  
+The game supports **single-player and multiplayer modes**, real-time paddle control using physical buttons, ball collision physics, scoring logic, sound feedback, and a game-over screen highlighting the winner.
+
+This repository contains:
+- Full source code
+- Project report (this README)
+- Demo video link
+
+---
+
+## 🧠 Project Objectives
+- Design a simple embedded game using STM32 and TouchGFX
+- Implement real-time input handling using GPIO buttons
+- Apply collision detection and physics logic
+- Manage game states (playing, scoring, game over)
+- Demonstrate understanding of the TouchGFX MVP architecture
+
+---
+
+## 🛠️ Hardware Components
+- **STM32F429ZI Discovery Board**
+- **LCD Display** (on-board)
+- **Push Buttons** (GPIO input, active-low with pull-up)
+- **Buzzer** (sound feedback on ball–paddle collision)
+- USB connection for programming and debugging
+
+---
+
+## 💻 Software & Tools
+- **STM32CubeIDE**
+- **TouchGFX Designer**
+- **HAL Drivers**
+- **C / C++**
+- **ARM GCC Toolchain**
+
+---
+
+## 🧩 System Architecture
+The project follows the **TouchGFX MVP (Model–View–Presenter)** pattern:
+
+- **Model**
+  - Stores shared game data (scores, winner)
+- **View**
+  - Handles UI rendering, animations, and user interaction
+- **Presenter**
+  - Acts as a bridge between View and Model
+
+This separation improves maintainability and clarity of the code.
+
+---
+
+## 🎮 Game Features
+
+### 🔹 Game Modes
+- **Multiplayer Mode**
+  - Player 1 vs Player 2
+  - Physical buttons control paddles
+  - Configurable win conditions (e.g. first to 3, 7, or 15 points)
+
+### 🔹 Gameplay Mechanics
+- Ball movement with X/Y velocity
+- Collision detection with paddles and screen edges
+- Angle-based bounce depending on paddle hit position
+- Speed clamping to avoid unrealistic movement
+
+### 🔹 Scoring System
+- Points awarded when opponent misses the ball
+- Game ends when a player reaches the target score
+- Automatic transition to **GameOver screen**
+
+### 🔹 Game Over Screen
+- Displays winner using formatted text:
+- Winner information is passed through the Model
+
+### 🔹 Sound Feedback
+- Buzzer activates whenever the ball hits a paddle
+
+---
+
+## 🔘 Input Handling
+- Buttons are configured as **active-low inputs**
+- Internal pull-up resistors are used
+- Button states are read via HAL GPIO functions
+- Inputs are shared between application logic and TouchGFX using `extern` variables
+
+---
+
+## 📽️ Demo Video
+🎥 **Project Demonstration Video:**  
+👉 *(Insert your demo video link here)*
+
+Example:
+```md
+https://youtu.be/your-demo-video-link
