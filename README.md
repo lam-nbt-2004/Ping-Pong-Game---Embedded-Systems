@@ -1,13 +1,12 @@
 # 🎮 Ping Pong Game on STM32 (TouchGFX)
 
 ## 📌 Project Overview
-This project is a **Ping Pong (Pong) game** implemented on an **STM32F429ZI Discovery board** using **STM32CubeIDE** and **TouchGFX**.  
-The game supports **single-player and multiplayer modes**, real-time paddle control using physical buttons, ball collision physics, scoring logic, sound feedback, and a game-over screen highlighting the winner.
+This project is a **Ping Pong game** implemented on an **STM32F429ZIT6 Discovery board** using **STM32CubeIDE** and **TouchGFX**.  
+The game supports **single-player and multiplayer modes**, real-time paddle control using physical buttons, ball collision physics, scoring logic and a game-over screen highlighting the winner.
 
 This repository contains:
 - Full source code
-- Project report (this README)
-- Demo video link
+- Project report
 
 ---
 
@@ -15,17 +14,13 @@ This repository contains:
 - Design a simple embedded game using STM32 and TouchGFX
 - Implement real-time input handling using GPIO buttons
 - Apply collision detection and physics logic
-- Manage game states (playing, scoring, game over)
-- Demonstrate understanding of the TouchGFX MVP architecture
 
 ---
 
 ## 🛠️ Hardware Components
-- **STM32F429ZI Discovery Board**
+- **STM32F429ZIT6 Discovery Board**
 - **LCD Display** (on-board)
 - **Push Buttons** (GPIO input, active-low with pull-up)
-- **Buzzer** (sound feedback on ball–paddle collision)
-- USB connection for programming and debugging
 
 ---
 
@@ -48,7 +43,7 @@ The project follows the **TouchGFX MVP (Model–View–Presenter)** pattern:
 - **Presenter**
   - Acts as a bridge between View and Model
 
-This separation improves maintainability and clarity of the code.
+This structure improves maintainability and readability of the code.
 
 ---
 
@@ -60,7 +55,7 @@ This separation improves maintainability and clarity of the code.
   - Physical buttons control paddles
   - Configurable win conditions (e.g. first to 3, 7, or 15 points)
 
-### 🔹 Gameplay Mechanics
+### 🔹 Gameplay Logic
 - Ball movement with X/Y velocity
 - Collision detection with paddles and screen edges
 - Angle-based bounce depending on paddle hit position
@@ -73,10 +68,8 @@ This separation improves maintainability and clarity of the code.
 
 ### 🔹 Game Over Screen
 - Displays winner using formatted text:
-- Winner information is passed through the Model
 
-### 🔹 Sound Feedback
-- Buzzer activates whenever the ball hits a paddle
+- Winner information is passed through the Model
 
 ---
 
@@ -88,10 +81,13 @@ This separation improves maintainability and clarity of the code.
 
 ---
 
-## 📽️ Demo Video
-🎥 **Project Demonstration Video:**  
-👉 *(Insert your demo video link here)*
+## ✅ Conclusion
+This project demonstrates the development of a simple embedded graphical application using STM32CubeIDE and TouchGFX.  
+It integrates hardware input, real-time graphics, game logic, and structured software design using the MVP pattern.
 
-Example:
-```md
-https://youtu.be/your-demo-video-link
+---
+
+## 👤 Author
+**Nguyen Lam**  
+Final Project – Embedded Systems
+
