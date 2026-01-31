@@ -50,7 +50,7 @@ This structure improves maintainability and readability of the code.
 ## 🎮 Game Features
 
 ### 🔹 Game Modes
-<<<<<<< HEAD
+
 - **Singleplayer Mode**
   - Player 1
   - Physical buttons control paddles
@@ -59,27 +59,28 @@ This structure improves maintainability and readability of the code.
 
 <p align="center"> <img src="images/singleplayer_game_screen.png" width="600"> </p> <p align="center"> <i>Figure 2: Singleplayer screen designed in TouchGFX</i> </p>
 
-=======
->>>>>>> bf589f7662778433bc0cfd6e298ed364f5d37041
 - **Multiplayer Mode**
   - Player 1 vs Player 2
   - Physical buttons control paddles
   - Configurable win conditions (e.g. first to 3, 7, or 15 points)
-<<<<<<< HEAD
+
   - Shows winner after game over
 
 <p align="center"> <img src="images/multiplayer_game_screen.png" width="600"> </p> <p align="center"> <i>Figure 2: Multiplayer screen designed in TouchGFX</i> </p>
-=======
->>>>>>> bf589f7662778433bc0cfd6e298ed364f5d37041
 
 ### 🔹 Gameplay Logic
 - Ball movement with X/Y velocity
-- Collision detection with paddles and screen edges
+- Collision detection with paddles and screen edges using **Axis-Aligned Bounding Box (AABB) detection
+    - A simple rectangle intersection test is used:
+        - The ball and paddles are treated as rectangles
+        - A collision occurs if their areas overlap
+        
+<p align="center"> <img src="images/ball_collision_logic.png" width="650"> </p> <p align="center"> <i>Figure X: Ball–paddle collision detection</i> </p>
+
 - Angle-based bounce depending on paddle hit position
 - Speed clamping to avoid unrealistic movement
 
 ### 🔹 Scoring System
-<<<<<<< HEAD
 - **Singleplayer Mode**
     - Points awarded when player hits the ball (Singleplayer)
     - Game ends when the ball hits the ground
@@ -88,16 +89,14 @@ This structure improves maintainability and readability of the code.
     - Points awarded when opponent misses the ball (Multiplayer)
     - Game ends when a player reaches the target score
     - Automatic transition to **GameOver screen**
-=======
+
 - Points awarded when opponent misses the ball
 - Game ends when a player reaches the target score
 - Automatic transition to **GameOver screen**
->>>>>>> bf589f7662778433bc0cfd6e298ed364f5d37041
 
 ### 🔹 Game Over Screen
 - Displays winner using formatted text:
 
-<<<<<<< HEAD
 - Player score and high score is passed through the Model (Singleplayer)
 
 <p align="center"> <img src="images/gameover_singleplayer.png" width="600"> </p> <p align="center"> <i>Figure 3: Game Over screen highlighting player score and highest score</i> </p>
@@ -105,10 +104,9 @@ This structure improves maintainability and readability of the code.
 - Winner information is passed through the Model (Multiplayer)
 
 <p align="center"> <img src="images/gameover_multiplayer.png" width="600"> </p> <p align="center"> <i>Figure 3: Game Over (Multiplayer) screen highlighting the winning player</i> </p>
-=======
+
 - Winner information is passed through the Model
 
->>>>>>> bf589f7662778433bc0cfd6e298ed364f5d37041
 ---
 
 ## 🔘 Input Handling
@@ -121,8 +119,7 @@ This structure improves maintainability and readability of the code.
 <p align="center"> <img src="images/input_config.png" width="650"> </p> <p align="center"> <i>Figure 4: GPIO configuration for paddle control</i> </p>
 
 <p align="center"> <img src="images/input_read.png" width="650"> </p> <p align="center"> <i>Figure 4: GPIO reading for paddle control</i> </p>
-=======
->>>>>>> bf589f7662778433bc0cfd6e298ed364f5d37041
+
 ---
 
 ## ✅ Conclusion
@@ -130,8 +127,3 @@ This project demonstrates the development of a simple embedded graphical applica
 It integrates hardware input, real-time graphics, game logic, and structured software design using the MVP pattern.
 
 ---
-
-## 👤 Author
-**Nguyen Lam**  
-Final Project – Embedded Systems
-
