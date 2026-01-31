@@ -1,8 +1,8 @@
 # Ping Pong Game on STM32F429ZIT6 using TouchGFX
- Participants: Nguyen Ba Tung Lam - 20226053
- Course: IT4210E - Embedded Systems
- Instructor: TS. Ngo Lam Trung
- Date: January 31<sup>st</sup>, 2026
+ - Participants: Nguyen Ba Tung Lam - 20226053
+ - Course: IT4210E - Embedded Systems
+ - Instructor: TS. Ngo Lam Trung
+ - Date: January 31<sup>st</sup>, 2026
 
 ## 📌 Project Overview
 This project is a **Ping Pong game** implemented on an **STM32F429ZIT6 Discovery board** using **STM32CubeIDE** and **TouchGFX**.  
