@@ -1,4 +1,8 @@
-# 🎮 Ping Pong Game on STM32 (TouchGFX)
+# Ping Pong Game on STM32F429ZIT6 using TouchGFX
+## Participants: Nguyen Ba Tung Lam - 20226053
+## Course: IT4210E - Embedded Systems
+## Instructor: TS. Ngo Lam Trung
+## Date: January 31<sup>st</sup>, 2026
 
 ## 📌 Project Overview
 This project is a **Ping Pong game** implemented on an **STM32F429ZIT6 Discovery board** using **STM32CubeIDE** and **TouchGFX**.  
@@ -74,7 +78,7 @@ This structure improves maintainability and readability of the code.
     - A simple rectangle intersection test is used:
         - The ball and paddles are treated as rectangles
         - A collision occurs if their areas overlap
-        
+
 <p align="center"> <img src="images/ball_collision_logic.png" width="650"> </p> <p align="center"> <i>Figure X: Ball–paddle collision detection</i> </p>
 
 - Angle-based bounce depending on paddle hit position
@@ -89,10 +93,6 @@ This structure improves maintainability and readability of the code.
     - Points awarded when opponent misses the ball (Multiplayer)
     - Game ends when a player reaches the target score
     - Automatic transition to **GameOver screen**
-
-- Points awarded when opponent misses the ball
-- Game ends when a player reaches the target score
-- Automatic transition to **GameOver screen**
 
 ### 🔹 Game Over Screen
 - Displays winner using formatted text:
@@ -115,7 +115,6 @@ This structure improves maintainability and readability of the code.
 - Button states are read via HAL GPIO functions
 - Inputs are shared between application logic and TouchGFX using `extern` variables
 
-<<<<<<< HEAD
 <p align="center"> <img src="images/input_config.png" width="650"> </p> <p align="center"> <i>Figure 4: GPIO configuration for paddle control</i> </p>
 
 <p align="center"> <img src="images/input_read.png" width="650"> </p> <p align="center"> <i>Figure 4: GPIO reading for paddle control</i> </p>
@@ -126,4 +125,4 @@ This structure improves maintainability and readability of the code.
 This project demonstrates the development of a simple embedded graphical application using STM32CubeIDE and TouchGFX.  
 It integrates hardware input, real-time graphics, game logic, and structured software design using the MVP pattern.
 
----
+
