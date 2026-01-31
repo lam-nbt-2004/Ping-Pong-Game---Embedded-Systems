@@ -1,0 +1,7 @@
+../../TouchGFX/gui/include/gui/gameover_screen/GameOverPresenter.hpp:15:13:GameOverPresenter::~GameOverPresenter()	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/gameover_screen/GameOverPresenter.cpp:8:6:virtual void GameOverPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/gameover_screen/GameOverPresenter.hpp:15:13:virtual GameOverPresenter::~GameOverPresenter()	8	static
+../../TouchGFX/gui/include/gui/gameover_screen/GameOverPresenter.hpp:15:13:virtual void* GameOverPresenter::_ZThn4_N17GameOverPresenterD1Ev()	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/gameover_screen/GameOverPresenter.cpp:3:1:GameOverPresenter::GameOverPresenter(GameOverView&)	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/gameover_screen/GameOverPresenter.cpp:16:5:int GameOverPresenter::getFinalScore() const	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/gameover_screen/GameOverPresenter.cpp:21:5:int GameOverPresenter::getHighScore() const	0	static

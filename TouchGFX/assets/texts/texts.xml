@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_TKJ8" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_8JZL" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Player &lt;%d&gt; wins !</Translation>
+      </Text>
+      <Text Id="__SingleUse_RCB5" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Game Over!</Translation>
+      </Text>
+      <Text Id="__SingleUse_XCQL" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_OZC1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">High Score : &lt;%d&gt;  </Translation>
+      </Text>
+      <Text Id="__SingleUse_XH2B" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_A878" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Your Score : &lt;%d&gt;  </Translation>
+      </Text>
+      <Text Id="__SingleUse_Z946" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Game Over!</Translation>
+      </Text>
+      <Text Id="__SingleUse_JB71" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_I913" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_EHH9" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">15 point</Translation>
+      </Text>
+      <Text Id="__SingleUse_UCIT" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">7 point</Translation>
+      </Text>
+      <Text Id="__SingleUse_PBBF" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">3 point</Translation>
+      </Text>
+      <Text Id="__SingleUse_JN9U" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Ping Pong</Translation>
+      </Text>
+      <Text Id="__SingleUse_GRMX" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">2 Player</Translation>
+      </Text>
+      <Text Id="__SingleUse_OZYY" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">1 Player</Translation>
+      </Text>
+      <Text Id="__SingleUse_63JX" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Ping Pong</Translation>
+      </Text>
+      <Text Id="__SingleUse_8AAX" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_M8MI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB"> Score : &lt;%d&gt;  </Translation>
+      </Text>
+      <Text Id="T_SCORE" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;%d&gt;:&lt;%d&gt;</Translation>
+      </Text>
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

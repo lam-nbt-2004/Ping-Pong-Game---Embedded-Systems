@@ -1,0 +1,10 @@
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:4:1:Model::Model()	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:9:6:void Model::tick()	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:14:6:void Model::setFinalScore(int)	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:19:5:int Model::getFinalScore() const	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:24:6:void Model::updateHighScore(int)	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:32:5:int Model::getHighScore() const	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:37:6:void Model::setTargetScore(int)	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:42:5:int Model::getTargetScore() const	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:47:6:void Model::setWinner(int)	0	static
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/model/Model.cpp:52:5:int Model::getWinner() const	0	static

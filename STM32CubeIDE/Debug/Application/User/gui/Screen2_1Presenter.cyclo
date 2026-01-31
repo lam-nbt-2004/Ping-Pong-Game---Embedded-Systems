@@ -1,0 +1,8 @@
+../../TouchGFX/gui/include/gui/screen2_1_screen/Screen2_1Presenter.hpp:28:13:Screen2_1Presenter::~Screen2_1Presenter()	1
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/screen2_1_screen/Screen2_1Presenter.cpp:10:6:virtual void Screen2_1Presenter::activate()	1
+../../TouchGFX/gui/include/gui/screen2_1_screen/Screen2_1Presenter.hpp:28:13:virtual Screen2_1Presenter::~Screen2_1Presenter()	1
+../../TouchGFX/gui/include/gui/screen2_1_screen/Screen2_1Presenter.hpp:28:13:virtual void* Screen2_1Presenter::_ZThn4_N18Screen2_1PresenterD1Ev()	1
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/screen2_1_screen/Screen2_1Presenter.cpp:4:1:Screen2_1Presenter::Screen2_1Presenter(Screen2_1View&)	1
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/screen2_1_screen/Screen2_1Presenter.cpp:20:5:int Screen2_1Presenter::getFinalScore() const	1
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/screen2_1_screen/Screen2_1Presenter.cpp:25:6:void Screen2_1Presenter::setFinalScore(int)	1
+C:/TouchGFXProjects/PingPong/TouchGFX/gui/src/screen2_1_screen/Screen2_1Presenter.cpp:30:6:void Screen2_1Presenter::submitScore(int)	1
